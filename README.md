@@ -15,9 +15,9 @@ let g:ycm_global_ycm_extra_conf = '~/.vim/.ycm_extra_conf.py'
 set completeopt-=preview
 let g:ycm_show_diagnostics_ui = 0
 
-map q :quit<CR>
+map q :q<CR>
 map <C-t> :NERDTreeToggle<CR>
-map <C-s> :write<CR> "echo 'stty -ixon' >> ~/.bashrc && exec $SHELL'
+map <C-s> :w<CR>
 
 let g:ycm_language_server =
   \ [{
